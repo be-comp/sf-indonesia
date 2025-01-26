@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #588157;
-  --color-secondary: #344e41;
-  --color-tersier: #dad7cd;
+  --color-utama: #283618;
+  --color-kedua: #344e41;
+  --color-ketiga: #dad7cd;
 }
 
 body {
@@ -13,4 +13,12 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 body {
   font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.backdrop-blur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }

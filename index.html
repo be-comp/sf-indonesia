@@ -11,6 +11,17 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
+    <style>
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+      }
+    </style>
+
     <title>SF Indonesia</title>
   </head>
   <body>
@@ -22,9 +33,9 @@
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <div class="flex-shrink-0 flex items-center space-x-3">
-            <a href="/" class="flex items-center space-x-3">
+            <a href="#home" class="flex items-center space-x-3">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-BrAGOJuL60J6vlRgFmOwfC07DinNRx.png"
+                src="./img/assets/logo.png"
                 alt="Sumitomo Forestry Symbol"
                 class="h-10 w-auto"
               />
@@ -174,15 +185,15 @@
         class="absolute inset-0"
         style="
           background: linear-gradient(
-            75deg,
-            rgba(0, 0, 0, 0.3) 0%,
-            rgba(52, 78, 65, 0.3) 85%,
-            rgba(52, 78, 65, 0.3) 100%
+            60deg,
+            rgba(216, 243, 220, 0) 0%,
+            rgba(149, 213, 178, 0.2861519607843137) 52%,
+            rgba(82, 183, 136, 0.6951155462184874) 89%
           );
         "
       ></div>
-      <div class="relative h-full flex items-center justify-center">
-        <div class="text-center text-white px-4 sm:px-6 lg:px-8">
+      <div class="relative h-full flex items-center justify-start">
+        <div class="text-start text-white px-4 sm:px-6 lg:px-8">
           <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             Welcome to PT. Sumitomo Forestry
           </h1>
@@ -190,7 +201,7 @@
             Sustainable Forestry for a Better Future
           </p>
           <button
-            class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300"
+            class="bg-green-600 hover:bg-utama text-white font-bold py-3 px-8 rounded-lg transition duration-300"
           >
             Learn More
           </button>
@@ -200,8 +211,199 @@
     <!-- heroes end -->
 
     <!-- About start -->
-    <section class="about"></section>
+    <section class="py-16 bg-slate-200">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center mb-6">
+          <h2 class="text-3xl font-bold text-gray-800 mr-4 text-utama">
+            About
+          </h2>
+          <hr class="flex-grow border-t border-gray-300" />
+        </div>
+        <div class="max-w-3xl">
+          <p class="text-gray-600 mb-4">
+            PT. Sumitomo Forestry Indonesia is a leading company in sustainable
+            forestry and wood products. With a rich history dating back to 1691,
+            we have been at the forefront of responsible forest management and
+            innovative wood solutions.
+          </p>
+          <p class="text-gray-600 mb-4">
+            Our commitment to sustainability goes beyond just preserving
+            forests. We actively engage in reforestation projects, promote
+            biodiversity, and develop eco-friendly wood products that contribute
+            to a greener future.
+          </p>
+          <p class="text-gray-600">
+            At Sumitomo Forestry, we believe in harmonizing the needs of society
+            with the health of our planet, ensuring that future generations can
+            continue to benefit from the beauty and resources of our forests.
+          </p>
+        </div>
+      </div>
+    </section>
     <!-- About End -->
+
+    <!-- News start-->
+    <!-- News end -->
+
+    <!-- Trading start -->
+    <section class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">
+          Global Wood Products Distribution
+        </h1>
+        <div class="flex items-center mb-6 flex-row-reverse">
+          <h2 class="text-3xl font-bold text-gray-800 ml-4">Trading</h2>
+          <hr class="flex-grow border-t border-gray-300" />
+        </div>
+        <div class="flex justify-between space-x-8">
+          <div class="w-1/3 border-l-4 border-[#74c69d] pl-4">
+            <h3 class="text-xl font-semibold mb-4">Sustainable Sourcing</h3>
+            <p class="text-gray-600 mb-4">
+              Our trading division specializes in the global distribution of
+              high-quality wood products. We source sustainably harvested timber
+              from our own managed forests and trusted partners worldwide.
+            </p>
+            <p class="text-gray-600">
+              By prioritizing sustainable sourcing, we ensure that our products
+              not only meet the highest quality standards but also contribute to
+              the preservation of global forests.
+            </p>
+          </div>
+          <div class="w-1/3 border-l-4 border-[#74c69d] pl-4">
+            <h3 class="text-xl font-semibold mb-4">Product Range</h3>
+            <p class="text-gray-600 mb-4">
+              Our extensive product range includes:
+            </p>
+            <ul class="list-disc list-inside text-gray-600 mb-4">
+              <li>Lumber and Structural Timber</li>
+              <li>Plywood and Engineered Wood Products</li>
+              <li>Specialty Hardwoods</li>
+              <li>Sustainable Building Materials</li>
+            </ul>
+            <p class="text-gray-600">
+              Each product is carefully selected and processed to meet the
+              diverse needs of our global clientele.
+            </p>
+          </div>
+          <div class="w-1/3 border-l-4 border-[#74c69d] pl-4">
+            <h3 class="text-xl font-semibold mb-4">Global Network</h3>
+            <p class="text-gray-600 mb-4">
+              With our extensive network and expertise, we ensure reliable
+              supply chains and consistent quality for our customers across
+              various industries.
+            </p>
+            <p class="text-gray-600">Our global presence allows us to:</p>
+            <ul class="list-disc list-inside text-gray-600">
+              <li>Respond quickly to market demands</li>
+              <li>Offer competitive pricing</li>
+              <li>Provide expert advice on product selection</li>
+              <li>Ensure timely delivery to any location</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Trading end -->
+
+    <!-- property start -->
+    <section class="my-2 bg-gray-200 py-3" id="property">
+      <div class="property py-4">
+        <div class="flex items-center mb-6">
+          <hr class="flex-grow border-t border-gray-300" />
+          <h2 class="text-3xl font-bold text-gray-800 mx-4">Property</h2>
+          <hr class="flex-grow border-t border-gray-300" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/KSK.jpg"
+                alt="gallery-photo"
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/1.jpg"
+                alt="gallery-photo"
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/2.jpg"
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/Morizora Bogor.jpeg"
+                alt="gallery-photo"
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/6.jpg"
+                alt="gallery-photo"
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/The Morizen 1.jpg"
+                alt="gallery-photo"
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/Morizen.jpg"
+                alt="gallery-photo"
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/Showroom.jpg"
+                alt="gallery-photo"
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/5.jpg"
+                alt="gallery-photo"
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/4.jpg"
+                alt="gallery-photo"
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg object-cover object-center"
+                src="./img/assets/3.jpg"
+                alt="gallery-photo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- property end -->
 
     <!-- Footer start-->
     <footer
@@ -232,7 +434,7 @@
               <p
                 class="flex items-center text-sm font-medium text-dark dark:text-white"
               >
-                <span class="mr-3 text-primary">
+                <span class="mr-3 text-utama">
                   <svg
                     width="20"
                     height="20"
@@ -287,7 +489,7 @@
                 <li>
                   <a
                     href="javascript:void(0)"
-                    class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                    class="inline-block text-base leading-loose text-body-color hover:text-utama dark:text-dark-6"
                   >
                     Home
                   </a>
@@ -295,7 +497,7 @@
                 <li>
                   <a
                     href="javascript:void(0)"
-                    class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                    class="inline-block text-base leading-loose text-body-color hover:text-utama dark:text-dark-6"
                   >
                     About
                   </a>
@@ -303,7 +505,7 @@
                 <li>
                   <a
                     href="javascript:void(0)"
-                    class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                    class="inline-block text-base leading-loose text-body-color hover:text-utama dark:text-dark-6"
                   >
                     News
                   </a>
@@ -311,7 +513,7 @@
                 <li>
                   <a
                     href="javascript:void(0)"
-                    class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                    class="inline-block text-base leading-loose text-body-color hover:text-utama dark:text-dark-6"
                   >
                     Trading
                   </a>
@@ -319,7 +521,7 @@
                 <li>
                   <a
                     href="javascript:void(0)"
-                    class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                    class="inline-block text-base leading-loose text-body-color hover:text-utama dark:text-dark-6"
                   >
                     Property
                   </a>
@@ -327,7 +529,7 @@
                 <li>
                   <a
                     href="javascript:void(0)"
-                    class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                    class="inline-block text-base leading-loose text-body-color hover:text-utama dark:text-dark-6"
                   >
                     Meet the Team
                   </a>
@@ -335,7 +537,7 @@
                 <li>
                   <a
                     href="javascript:void(0)"
-                    class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                    class="inline-block text-base leading-loose text-body-color hover:text-utama dark:text-dark-6"
                   >
                     Links
                   </a>
@@ -343,7 +545,7 @@
                 <li>
                   <a
                     href="javascript:void(0)"
-                    class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                    class="inline-block text-base leading-loose text-body-color hover:text-utama dark:text-dark-6"
                   >
                     Contact
                   </a>
