@@ -1,24 +1,22 @@
 @import "tailwindcss";
 
 @theme {
-  --color-utama: #283618;
-  --color-kedua: #344e41;
-  --color-ketiga: #dad7cd;
+  --color-mint-500: oklch(0.72 0.11 178);
+  --color-utama: #344e41;
+  --color-dasar: #dad7cd;
 }
 
-body {
-  font-family: "Inter", sans-serif;
+.gradient {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-body {
-  font-family: "Inter", sans-serif;
+.gradient-hijau {
+  /* background: linear-gradient(
+    90deg,
+    rgba(149, 213, 178, 0) 0%,
+    rgba(44, 110, 73, 1) 95%
+  ); */
+  background: linear-gradient(90deg, #95d5b2 0%, #2c6e49 100%);
 }
 
-a {
-  text-decoration: none;
-}
-.backdrop-blur {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
+/* slider */
