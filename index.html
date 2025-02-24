@@ -169,19 +169,41 @@
           );
         "
       ></div>
-      <div class="relative h-full flex items-center justify-start">
-        <div class="text-start text-white px-4 sm:px-6 lg:px-8">
-          <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-wrap">
-            Sumitomo Forestry <span class="block">Indonesia</span>
-          </h1>
-          <p class="text-xl sm:text-2xl md:text-3xl mb-8">
-            Sustainable Forestry for a Better Future
-          </p>
-          <button
-            class="bg-green-800 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300"
+      <div class="relative h-full flex items-center justify-center">
+        <div
+          class="flex flex-col lg:flex-row gap-8 text-white px-4 sm:px-6 lg:px-8 max-w-7xl w-full justify-between"
+        >
+          <div class="text-start text-white px-4 sm:px-6 lg:px-8">
+            <h1
+              class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-wrap"
+            >
+              Sumitomo Forestry <span class="block">Indonesia</span>
+            </h1>
+            <p class="text-xl sm:text-2xl md:text-3xl mb-8">
+              Sustainable Forestry for a Better Future
+            </p>
+            <button
+              class="bg-green-800 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300"
+            >
+              Learn More
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-end items-stretch lg:items-end gap-4 lg:w-1/2"
           >
-            Learn More
-          </button>
+            <a
+              href="#trading"
+              class="bg-white text-green-800 font-bold py-3 px-8 rounded-lg transition duration-300 w-full inline-block text-center"
+            >
+              Trading
+            </a>
+            <a
+              href="#property"
+              class="bg-white text-green-800 font-bold py-3 px-8 rounded-lg transition duration-300 w-full inline-block text-center"
+            >
+              Property
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -424,7 +446,7 @@
     <!-- News end -->
 
     <!-- Gallery start-->
-    <section class="py-8">
+    <section class="py-8" id="property">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div class="grid gap-4">
           <div>
@@ -523,7 +545,7 @@
     <!-- Gallery end -->
 
     <!-- Trading start -->
-    <section class="bg-gray-50 dark:bg-gray-800" id="about">
+    <section class="bg-gray-50 dark:bg-gray-800" id="trading">
       <div
         class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6"
       >
@@ -1141,7 +1163,7 @@
       >
         Copyright © 2025 Sumitomo Forestry Indonesia&nbsp;
         <a
-          href="https://material-tailwind.com/"
+          href="https://be-comp.github.io/sf-indonesia"
           target="_blank"
           rel="noreferrer"
           >Powered by Bekasi Computer (B-COM)</a
